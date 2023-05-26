@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DietMaker</string>
+    <string name="aboutText">This is Avraham Meshumar\'s Android project for 5 points.\n\n\n
+        It is an app called \'DietMaker\' which creates simple personal diets based on physical data. </string>
+    <string name="HowToUseText">Just press the \'Enter Diet\' button and enter your physical details.
+        then will your personal diet appear.\n\n\n
+        On later uses, you could enter how many calories you ate and how much time did you work out each day.</string>
+    <string name="Diet2Title">You are %1$s. You need to eat %2$d calories a day and workout %3$,.1f hours a day.</string>
+    <string-array name="gendersArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="SeekBarLabel0">Underweight</string>
+    <string name="SeekBarLabel1">Obese</string>
+    <string-array name="ResponseMessage">
+        <item>Too little!</item>
+        <item>It\'s just fine. well done!</item>
+        <item>Too much!</item>
+    </string-array>
+    <string name="Diet2SummaryMessage">Overall, you did %1$s today.</string>
+    <string name="Diet2Question1">How many calories had you ate today?</string>
+    <string name="Diet2Question2">How many hours did you workout today?</string>
+</resources>
