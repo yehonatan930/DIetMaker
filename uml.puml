@@ -1,0 +1,38 @@
+@startuml
+class com.example.Dieter.StartScreen {
+# void onCreate(Bundle)
++ String readFromFile(String)
++ void writeToFile(String,String,String)
+}
+class com.example.Dieter.HowToUseScreen {
+# void onCreate(Bundle)
+}
+class com.example.Dieter.DietFirstScreen {
+# void onCreate(Bundle)
++ void writeToFile(String,String,String)
+}
+class com.example.Dieter.ErrorScreen {
+# void onCreate(Bundle)
+}
+class com.example.Dieter.AboutScreen {
+# void onCreate(Bundle)
+}
+class com.example.Dieter.DietSecondScreen {
+# void onCreate(Bundle)
++ String readFromFile(String)
++ int assesDiffQuality(double,double)
++ String assesAllQuality()
+}
+class com.example.Dieter.Quals {
++ {static} int cqual
++ {static} int wqual
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.StartScreen
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.HowToUseScreen
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.DietFirstScreen
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.ErrorScreen
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.AboutScreen
+androidx.appcompat.app.AppCompatActivity <|-- com.example.Dieter.DietSecondScreen
+@enduml
